@@ -1,0 +1,28 @@
+* {
+  text-decoration: none;
+  outline: none;
+}
+body {
+  font-family: palanquin;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 7%;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 68px;
+  text-align: left;
+}
+a {
+  color: black;
+  &:hover {
+    border-bottom: 2px solid teal;
+  }
+}
+
+h6 {
+  font-weight: 600;
+}

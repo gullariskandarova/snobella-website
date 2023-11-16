@@ -1,0 +1,21 @@
+%primary-btn {
+  padding: 10px;
+  border: 1px solid teal;
+  border-radius: 8px;
+  transition: all 0.3s;
+  &:hover{
+    background-color:transparent;
+    color: teal;
+  }
+}
+
+%secondary-btn{
+  padding: 10px;
+  border: 1px solid teal;
+  border-radius: 8px;
+  transition: all 0.3s;
+  &:hover{
+    background-color: teal;
+    color: white;
+  }
+}
